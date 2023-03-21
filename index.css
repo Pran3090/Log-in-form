@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/bg.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+
+.container {
+ /* border: 2px solid black; */
+ color: white;
+ position: absolute;
+ top: 26%;
+ left: 16%;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 36px 163px;
+}
+
+.box {    
+    margin: 6px 103px;
+    padding: 4px 47px;
+    border-bottom: 2px solid white;
+}
+.box input {    
+    width: 76%;
+    height: 50%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background: none;
+}
+.box i {
+    opacity: 0.6;
+    width: 20px;
+    margin: 2px 2px;
+}
+.box #i1 {
+    position: absolute;
+    top: 55%;
+    right: 73%;
+}
+.box #i2 {
+    position: absolute;
+    top: 40%;
+    right: 73%;
+}
+.btn {
+    width: 60%;
+    height: 50%;
+    padding: 9px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 39px 104px;
+    opacity: 0.9;
+}
+
+.btn:hover{
+    background-color: rgb(49, 40, 40);
+    color: white;
+    cursor: pointer;
+    border: 2px solid rgb(101, 100, 100);
+}
+
+
+
+.checkbox {
+    position: absolute;
+    top: 79%;
+    left: 19%;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.pass {
+    cursor: pointer;
+    left: 40px;
+
+}
+
+input {
+    accent-color: rgb(59, 49, 69);
+}
+
+.checkbox a {
+    margin: 0px 85px;
+    color: white;
+    text-decoration: none;
+}
